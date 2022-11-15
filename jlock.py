@@ -11,6 +11,11 @@ def jlock_main():
     arg_list = sys.argv
     arg_list_len = len(arg_list)
 
+    # check for empty string in command line args - empty strings are invalid input
+    if '' in arg_list:
+        print('Error: invalid command')
+        return
+
     if arg_list_len == 1:
         print('\n\tWelcome to JLOCK!\n'
               '\tby J. Matta\n'
