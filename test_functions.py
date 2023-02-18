@@ -13,4 +13,4 @@ def test_print_separation_line():
 
 
 def test_extract_msg_file_content()
-lock_depth_positive_check()
+def test_lock_depth_positive_check()
