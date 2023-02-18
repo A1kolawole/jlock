@@ -12,5 +12,5 @@ def test_print_separation_line():
     assert print_separation_line('=', -1) == '\n\t\n\n'
 
 
-extract_msg_file_content()
+def test_extract_msg_file_content()
 lock_depth_positive_check()
