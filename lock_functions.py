@@ -6,7 +6,6 @@ from math_functions import modinv
 
 
 def lock(message, lock_file_name):
-
     # Declare and Initialize key file dictionary
     key_dict = {
         'm_value': 0,

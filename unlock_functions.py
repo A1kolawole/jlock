@@ -5,7 +5,6 @@ import os
 
 
 def unlock(encrypted_msg_file):
-
     # get json object from file contents
     with open(encrypted_msg_file, 'r') as encrypt_msg_fileIO:
         msg_file_contents = encrypt_msg_fileIO.read()
